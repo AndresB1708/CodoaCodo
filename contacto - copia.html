@@ -14,22 +14,27 @@
 </head>
 <body>
     <header>
-        <nav class="navegacion">
-            <ul>
-                <li>
-                    <a href="index.html">INICIO</a>
-                <li>
-                    <a href="qHacemos.html">¿QUE HACEMOS?</a>
-                </li>
-                <li>
-                <li>
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
-            </ul>
-            <div class="cabecera_right"><b>AB Sistemas</b></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="qSomos.html">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="qHacemos.html">¿Que Hacemos?</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
-    
         <section>
             <div class="seccion_1">
                 <p class="titulo_2">Contacto</p>
@@ -43,22 +48,27 @@
 
         <div class="contenido_formulario">
            <!-- <form method="POST" action="/index.php" class="needs-validation" novalidate> -->
-            <form id="formulario" action="procesar.php" method="">
+            <form id="formulario">
                 <div class="fom-row">
                     <div class="col-md-6 mb-3">
                         <label  for="validarNombre">Nombre:*</span></label>
                     </div>
                     <div class="col-md-6 mb-3">
                         <input type="text" class="form-control" id="validarNombre" name="validarNombre">
-                        <p></p> 
                     </div>
                 </div>
             
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
-                        <label for="validarApellido">Apellidos:*</span></label>
-                        <input type="text" class="form-control" id="validarApellido" name="validarApellido" >
-                        <p></p> 
+                        <label for="validarApellidos">Apellidos:*</span></label>
+                        <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" >
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validarTelefono">Telefono:*</span></label>
+                        <input type="text" class="form-control" id="validarTelefono" name="validarTelefono" >
                     </div>
                 </div>
             
@@ -66,26 +76,23 @@
                     <div class="col-md-12 mb-3">
                         <label for="validarEmail">Email:*</span></label>
                         <input type="email" class="form-control" id="validarEmail" name="validarEmail" >
-                        <p></p> 
                     </div>
                 </div>
 
                 <div class="form-row">
                     <div class="col-md-12 mb-3">
                         <label for="verificarEmail">VerificarEmail:*</span></label>
-                        <input type="text" class="form-control" id="verificarEmail" name="verificarEmail" >
-                        <p></p> 
+                        <input type="email" class="form-control" id="verificarEmail" name="verificarEmail" >
                     </div>
                 </div>
                       
-               <div class="form-group">
+                <div class="form-group">
                     <label for="validarMensaje">Mensaje:*</span></label>
-                    <textarea id="validarMensaje" class="form-control" name="validarMensaje" rows="3" min="25" ></textarea>
-                    <p></p> 
-                </div> 
+                    <textarea class="form-control" id="validarMensaje" name="validarMensaje" rows="3" min="25" ></textarea>
+                </div>
             
                 <div class="form-group mb-10">
-                  <button>Enviar</button>
+                    <button class="btn btn-secondary" type="submit" name="submit">Enviar</button> 
                 </div>
             
             </form>
@@ -109,7 +116,7 @@
                         <ul>
                             <li><a href="https://www.facebook.com/andres.burgues" target="_blank"><i class="icon-facebook-squared"></i></a></li>
                             <li><a href="https://www.instagram.com/ab_sistemas/" target="_blank"><i class="icon-instagram"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/andres-burgues-774174219/" target="_blank"><i class="icon-linkedin" target="_blank"></i></a></li>
+                            <li><a href="/index.html"><i class="icon-linkedin" target="_blank"></i></a></li>
                         </ul>
                     </div>
                 </div>                       

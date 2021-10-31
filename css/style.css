@@ -7,15 +7,14 @@ header{
     height: 70px;    
     margin-left: auto;
     margin-right: auto;
+    background-color: #00141d;
 }
 .cabecera_right{
     color: #fff;
     float: right;
 }
 .navegacion{
-    /*width: 100%;*/
     height: 40px;
-    background-color: #00141d;
     padding: 15px;
 }
 
@@ -535,8 +534,18 @@ img {
     width: 560px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #198754;
+    border: 1px solid #4c4e4d;
     align-items: center;
     padding: 20px;
+
+}
+
+
+@media all and (max-width:599px){
+    .contenido_formulario{
+        width: 400px;
+        padding: 0;
+    
+    }
 
 }
