@@ -34,14 +34,10 @@ header{
     color: #fff;
     padding: 10px;
     text-decoration: none;
-    /*border: 1px outset; */  
 }
 .navegacion ul li a:hover{
     font-size: 22px;
 }
-/*.navegacion ul li a:{
-    border: 1px outset #fff;
-}*/
 
 
 .contenido_1{
@@ -79,7 +75,7 @@ header{
     background-image: url(../img/Logo_JPG_chico.png);
     background-size: cover;
     width: 40%;
-    height: 450px;
+    height: 550px;
     float: left;
     
 }
